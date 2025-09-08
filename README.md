@@ -1,5 +1,4 @@
-
-# README — Etapa 2 (Backend – Express + Arquivo + MongoDB)
+# Etapa 2 (Backend – Express + Arquivo + MongoDB)
 
 ## Desafio
 
