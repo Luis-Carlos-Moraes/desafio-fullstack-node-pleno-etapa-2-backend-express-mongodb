@@ -46,67 +46,6 @@ Construir uma **API Express** para gerenciar **alunos**, com persistência **em 
 * Validar minimamente o payload (campos obrigatórios).
 * Usar variáveis de ambiente para conexão MongoDB.
 
-## Como começar
-
-```bash
-mkdir etapa-2-backend && cd etapa-2-backend
-npm init -y
-npm i express mongoose dotenv
-# opcional para desenvolvimento:
-npm i -D nodemon
-```
-
-Crie um script em `package.json`:
-
-```json
-{
-  "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
-  }
-}
-```
-
-## Estrutura sugerida
-
-```
-etapa-2-backend/
-  src/
-    server.js
-    routes/
-      aluno.routes.js
-    controllers/
-      aluno.controller.js
-    services/
-      file.service.js
-      alunoDb.service.js
-    models/
-      Aluno.js
-    utils/
-      http.js
-  data/
-    alunos.json     (criado automaticamente se não existir)
-  .env.example
-  README.md
-```
-
-### `.env.example`
-
-```
-PORT=3001
-MONGODB_URI=mongodb://localhost:27017/escola
-```
-
-## Como rodar localmente
-
-```bash
-cp .env.example .env
-# ajuste MONGODB_URI conforme seu ambiente
-npm install
-npm run dev
-# API em http://localhost:3001
-```
-
 ## Testes rápidos (curl)
 
 ```bash
