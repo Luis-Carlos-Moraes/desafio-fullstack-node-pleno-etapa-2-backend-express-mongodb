@@ -23,7 +23,7 @@ app.post("/aluno/cadastrar-db", async (req, res) => {
 
   if (!nome || !email || !dataNascimento || !matricula) {
     return res.status(400).json({
-      error: "nome, email, dataNascimento and matricula are required.",
+      error: "nome, email, dataNascimento e matricula são necessários.",
     });
   }
 
