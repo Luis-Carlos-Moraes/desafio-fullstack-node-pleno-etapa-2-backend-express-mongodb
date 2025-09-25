@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Marcos",
+    "email": "marcos@example.com",
+    "dataNascimento": "1999-01-01",
+    "matricula": "2025555"
+  },
+  {
+    "nome": "Maria",
+    "email": "maria@example.com",
+    "dataNascimento": "2000-01-01",
+    "matricula": "20251234"
+  },
+  {
+    "nome": "Caua",
+    "email": "caua@example.com",
+    "dataNascimento": "2010-01-01",
+    "matricula": "2025999"
+  },
+  {
+    "nome": "Jose",
+    "email": "jose@example.com",
+    "dataNascimento": "1990-01-01",
+    "matricula": "20251111"
+  }
+]
